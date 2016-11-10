@@ -12,9 +12,6 @@ Your application shall be a single-page application that has interactive feature
 
 An Address should consist of:
 - Name
-- Street Address 1
-- Street Address 2
-- City
-- State
-- Zip Code
+- E-mail address
+- Phone Number
 
