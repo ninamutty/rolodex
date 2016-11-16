@@ -6,8 +6,6 @@ const ApplicationView = Backbone.View.extend({
   },
 
   render: function() {
-    this.$el.html('<p>Hello World</p>');
-
     return this;
   }
 });
