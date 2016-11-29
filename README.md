@@ -38,6 +38,7 @@ Each contact should consist of:
 You have been provided with an application that has some of the structure that you will need to get started. Note that Backbone is much less structured than our Rails applications, so we are providing some of this structure for you. You would not normally have this structure when starting a new Backbone application.
 
 Your folder structure is set up with the majority of the files that you will need to edit in the `src` folder. Each folder inside of `src` contains files that will get you started.
+
 `collections` folder: 
 - `rolodex.js`: will contain the code to represent a collection of Contacts
 
