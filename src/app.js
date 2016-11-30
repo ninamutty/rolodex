@@ -30,4 +30,19 @@ $(document).ready(function() {
   });
   application.render();
 
+
+  $(document).click(function (e){
+    // console.log("doc click");
+
+    var container = $("#contact-details");
+    var element = $(".contact-card");
+    if (!element.children().is(e.target) && !element.is(e.target) && container.is(':visible') && !container.is(e.target) &&  container.has(e.target).length === 0) {
+      // console.log(e.target);
+      // console.log(container.is(':visible'));
+      container.hide();
+    } else {
+      container.show();
+    }
+  });
+
 });
