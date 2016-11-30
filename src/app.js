@@ -13,10 +13,13 @@ import Rolodex from 'app/collections/rolodex';
 var contactData = [{
   name: 'Lisa Mutty',
   email: 'mdsne@msn.com',
-  phone: '(206) 384-1249'
-}];
-
-
+  phone: '(206) 399-8060'
+}, {
+  name: 'Paul Mutty',
+  email: 'pmutty@starbucks.com',
+  phone: '(206) 399-9056'
+}
+];
 
 $(document).ready(function() {
   var contactList = new Rolodex(contactData);
@@ -26,4 +29,5 @@ $(document).ready(function() {
     model: contactList
   });
   application.render();
+
 });
