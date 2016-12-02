@@ -106,31 +106,6 @@ const RolodexView = Backbone.View.extend({
 });
 
 
-// var tripInfomation = function(trip) {
-//   var spotsLeft = randSpot()
-//   $('#trip-name').text(trip.name);
-//   $('#trip-continent').text("Continent: " + trip.continent);
-//   $('#trip-category').text("Category: " + trip.category);
-//   $('#trip-about').text(trip.about);
-//   $('#trip-weeks').text("Duration: " + trip.weeks);
-//   $('#trip-cost').text("Cost: $" + trip.cost);
-//   $('#trip-spots').text("Spots Left: " + spotsLeft);
-//   $('#trip-info').append(reserveTrip(trip.id));
-// }
-//
-// $('#trips-list').on('click', 'a', function(e) { //e is short for 'event'
-//   e.preventDefault();
-//   $('#trip-info').show();
-//   var showTripUrl = $(this).attr('href');  // attr() = attributes
-//   var tripID = $.get(showTripUrl, tripInfomation).fail(function() {
-//     alert("Page Not Found");
-//   });
-// });
-
-
-
-
-
 
 
 

@@ -12,12 +12,12 @@ import Rolodex from 'app/collections/rolodex';
 
 var contactData = [{
   name: 'Lisa Mutty',
-  email: 'mdsne@msn.com',
-  phone: '(206) 399-8060'
+  email: 'lisa@email.com',
+  phone: '(211) 111-1111'
 }, {
   name: 'Paul Mutty',
-  email: 'pmutty@starbucks.com',
-  phone: '(206) 399-9056'
+  email: 'paul@email.com',
+  phone: '(222) 222-2222'
 }
 ];
 
@@ -33,12 +33,9 @@ $(document).ready(function() {
 
   $(document).click(function (e){
     // console.log("doc click");
-
     var container = $("#contact-details");
     var element = $(".contact-card");
-    if (!element.children().is(e.target) && !element.is(e.target) && container.is(':visible') && !container.is(e.target) &&  container.has(e.target).length === 0) {
-      // console.log(e.target);
-      // console.log(container.is(':visible'));
+    if (!element.children().is(e.target) && !element.is(e.target) && !container.is(e.target) &&  container.has(e.target).length === 0) {
       container.hide();
     } else {
       container.show();

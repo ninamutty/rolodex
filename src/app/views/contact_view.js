@@ -17,16 +17,24 @@ const ContactView = Backbone.View.extend({
   },
 
   events: {
-    'click .contact-card': 'showModal'
+    'click .contact-card': 'showModal',
+    // 'click #btn-edit': 'editContact',
+    'click #btn-delete': 'deleteContact'
   },
 
   showModal: function() {
     console.log("showModal");
     var html = this.modalTemplate(this.model.toJSON());
-    $('#contact-details').html(html);
-    $('#modal-container').show();
-    $('#modal-container-button').show();
+    $('#contact-details').html(html)eos;
   }
+
+  // editContact: function() {
+  //   console.log("editContact");
+  // },
+
+  // deleteContact: function() {
+  //   console.log("deleteContact");
+  // }
 
 }); // end ContactView
 
